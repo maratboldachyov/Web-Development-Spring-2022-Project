@@ -1,1 +1,11 @@
-<p>product-list works!</p>
+<div *ngFor="let product of products">
+
+  <div *ngIf="product.categoryId == categoryId">
+    <h3 id = "product_head">
+      <a [title]="product.name + ' details'" href="{{ product.image_url_product }}" [routerLink]=
+        "['categories/{{product.categoryId}}/products', product.id]">
+        {{ product.name }}
+      </a>
+    </h3>
+  </div>
+</div>

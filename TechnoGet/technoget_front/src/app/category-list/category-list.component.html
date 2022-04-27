@@ -1,1 +1,9 @@
-<p>category-list works!</p>
+<h2>Categories</h2>
+<script src = "C:\Users\Admin\Desktop\KBTU\Web_Dev\Project\TechnoGet\technoget_front\src\app\fake_db.ts"></script>
+<body>
+  <div *ngFor="let category of categories">
+    <a [title]="category.name + ' details'" [routerLink]="['/categories', category.id]">
+      <h1>{{category.name}}</h1>
+    </a>
+  </div>
+</body>

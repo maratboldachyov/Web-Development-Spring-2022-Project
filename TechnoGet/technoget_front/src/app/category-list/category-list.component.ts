@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CATEGORY} from "../fake_db";
 
 @Component({
   selector: 'app-category-list',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./category-list.component.css']
 })
 export class CategoryListComponent implements OnInit {
-
+  categories = CATEGORY;
   constructor() { }
 
   ngOnInit(): void {

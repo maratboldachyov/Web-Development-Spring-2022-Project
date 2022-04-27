@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {CATEGORY, PRODUCTS} from "../fake_db";
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-category-product-list',
@@ -6,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./category-product-list.component.css']
 })
 export class CategoryProductListComponent implements OnInit {
+  categories = CATEGORY;
+  products = PRODUCTS;
+  public categoryId !: number;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    const routeParams = this.route.snapshot.paramMap;
+    this.categoryId = Number(routeParams.get('categoryId'));
   }
 
 }
