@@ -14,6 +14,7 @@ import { ShippingComponent } from './shipping/shipping.component';
 import {RouterModule} from "@angular/router";
 import {HttpClientModule} from "@angular/common/http";
 import {ReactiveFormsModule} from "@angular/forms";
+import { FavouriteComponent } from './favourite/favourite.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {ReactiveFormsModule} from "@angular/forms";
     ProductDetailsComponent,
     ProductListComponent,
     CartComponent,
-    ShippingComponent
+    ShippingComponent,
+    FavouriteComponent
   ],
   imports: [
     BrowserModule,

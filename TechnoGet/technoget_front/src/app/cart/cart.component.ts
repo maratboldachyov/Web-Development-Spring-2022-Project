@@ -30,9 +30,6 @@ export class CartComponent {
     this.checkoutForm.reset();
   }
 
-  // onDelete(): void {
-  //   this.items = this.cartService.clearCart();
-  // }
   clearCart() {
     this.items = [];
     return this.items;
