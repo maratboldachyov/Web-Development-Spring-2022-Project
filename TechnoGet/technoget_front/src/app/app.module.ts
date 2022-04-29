@@ -15,6 +15,7 @@ import {RouterModule} from "@angular/router";
 import {HttpClientModule} from "@angular/common/http";
 import {ReactiveFormsModule} from "@angular/forms";
 import { FavouriteComponent } from './favourite/favourite.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FavouriteComponent } from './favourite/favourite.component';
     ProductListComponent,
     CartComponent,
     ShippingComponent,
-    FavouriteComponent
+    FavouriteComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

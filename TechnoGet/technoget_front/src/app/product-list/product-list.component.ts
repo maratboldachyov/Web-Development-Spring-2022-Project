@@ -10,6 +10,9 @@ export class ProductListComponent implements OnInit {
   products = PRODUCTS;
   @Input() categoryId!: number;
   constructor() { }
+  like(product: any){
+    product.like += 1;
+  }
 
   ngOnInit(): void {
   }

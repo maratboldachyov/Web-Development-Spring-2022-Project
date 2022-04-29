@@ -6,16 +6,18 @@
 
 <div class="cart-item" *ngFor="let item of items">
   <span>{{ item.name }} </span>
+<!--  <button class = "button" (click)="remove()">Remove</button>-->
 </div>
 
 <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
-  <button class = "button" (click)="clearCart()">Clear Cart</button>
+  <button class = "button" onclick="clearCart()">Clear Cart</button>
 
   <div>
     <label for="name">
       Name
     </label>
     <input id="name" type="text" formControlName="name">
+
   </div>
 
   <div>

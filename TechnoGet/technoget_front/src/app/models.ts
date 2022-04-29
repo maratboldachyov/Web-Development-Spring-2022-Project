@@ -9,5 +9,8 @@ export interface Product{
   name: string,
   desc: string,
   image_url_product: string,
-  show: boolean
+  show: boolean,
+  price: number,
+  rating: number,
+  like: number,
 }

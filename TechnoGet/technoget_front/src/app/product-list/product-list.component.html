@@ -7,5 +7,12 @@
         {{ product.name }}
       </a>
     </h3>
+    <span id="Butt">
+      <p>
+        <button type="button" (click)="like(product)">
+          Like
+        </button> {{ product.like }}
+      </p>
+    </span>
   </div>
 </div>

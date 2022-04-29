@@ -9,6 +9,7 @@ import {Product} from "./models";
 export class CartService {
   items: Product[] = [];
   constructor(private http: HttpClient) { }
+
   addToCart(product: Product) {
     this.items.push(product);
   }

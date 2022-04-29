@@ -8,6 +8,7 @@ import {HttpClient} from "@angular/common/http";
 export class FavouriteProductService {
   items: Product[] = [];
   constructor(private http: HttpClient) { }
+
   addToFavourite(product: Product) {
     this.items.push(product);
   }

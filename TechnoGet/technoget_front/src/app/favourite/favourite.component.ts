@@ -14,7 +14,9 @@ export class FavouriteComponent {
   products = PRODUCTS;
   constructor(private FavouriteProductService: FavouriteProductService) { }
 
-  ngOnInit(): void {
+  clearFavourite() {
+    this.items = [];
+    return this.items;
   }
 
 }

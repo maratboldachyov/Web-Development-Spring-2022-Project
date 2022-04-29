@@ -1,1 +1,6 @@
-<p>favourite works!</p>
+<h3>Favourites</h3>
+<div class="cart-item" *ngFor="let item of items">
+  <span>{{ item.name }} </span>
+<!--  <button class = "button" (click)="remove()">Remove</button>-->
+</div>
+<button class = "button" onclick="clearFavourite()">Clear Favourite</button>
