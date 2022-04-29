@@ -9,7 +9,7 @@ import {ShippingComponent} from "./shipping/shipping.component";
 const routes: Routes = [
   {path: '', component:CategoryListComponent},
   {path: 'categories/:categoryId', component: CategoryProductListComponent},
-  {path: 'products/:productId', component: ProductDetailsComponent},
+  {path: 'categories/:categoryId/products/:productId', component: ProductDetailsComponent},
   { path: 'cart', component: CartComponent },
   { path: 'shipping', component: ShippingComponent },
 ];
