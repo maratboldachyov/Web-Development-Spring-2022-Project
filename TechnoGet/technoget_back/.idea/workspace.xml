@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1dbd9004-14b5-4dd0-aa53-c5b23abb42cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technoget_back/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technoget_back/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technoget_back/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technoget_back/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technoget_back/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/assets/shipping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/cart.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/cart.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/cart/cart.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/cart/cart.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/cart/cart.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/cart/cart.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/category-list/category-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/category-list/category-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/category-list/category-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/category-list/category-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/category-product-list/category-product-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/category-product-list/category-product-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/category-product-list/category-product-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/category-product-list/category-product-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/fake_db.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/favourite-product.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/favourite-product.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/favourite/favourite.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/favourite/favourite.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/favourite/favourite.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/favourite/favourite.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/footer/footer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/loader.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/loader.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/login/login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-alerts/product-alerts.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-alerts/product-alerts.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-alerts/product-alerts.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-alerts/product-alerts.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-details/product-details.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-details/product-details.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-details/product-details.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-details/product-details.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-list/product-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-list/product-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-list/product-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/product-list/product-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/shipping/shipping.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/shipping/shipping.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/shipping/shipping.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/shipping/shipping.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/top-bar/top-bar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/top-bar/top-bar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/top-bar/top-bar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/app/top-bar/top-bar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../technoget_front/tsconfig.spec.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="28ceaO6BTAjFxiTVbk6O98Jv5Ah" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TechnoGet_Final/backend/website" />
+  </component>
+  <component name="RunManager">
+    <configuration name="technoget_back" type="Python.DjangoServer" factoryName="Django server">
+      <module name="technoget_back" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dbd9004-14b5-4dd0-aa53-c5b23abb42cd" name="Changes" comment="" />
+      <created>1651520363986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651520363986</updated>
+      <workItem from="1651520365138" duration="1299000" />
+      <workItem from="1651599678251" duration="761000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
