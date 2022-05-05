@@ -13,8 +13,7 @@ export class NavBarComponent implements OnInit {
   loading = false;
   url: string;
 
-  constructor(private categoryListService: CategoryService,
-    private router: Router) {
+  constructor(private categoryListService: CategoryService, private router: Router) {
     this.categoryList = [];
     this.url = this.router.url;
   }

@@ -81,21 +81,4 @@ export class ProductListComponent implements OnInit {
     window.alert('You will be notified when the product goes on sale');
   }
 
-  createProduct(): void {
-    const temp: Product = {
-      id: this.ids,
-      name: this.createName,
-      images: this.images,
-      price: this.createPrice,
-      short_description: this.createShortDescription,
-      rating: this.createRating,
-      full_description: this.createFullDescription,
-      category: this.category,
-      comments: this.comments
-    }
-    this.createName = '';
-    this.ids = this.ids + 1;
-    this.productListService.addProduct(temp);
-    this.getProductList(this.ids); // maybe can be removed!
-  }
 }

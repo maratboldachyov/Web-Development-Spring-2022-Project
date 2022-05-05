@@ -18,18 +18,16 @@ export class ProductService {
   }
   // tslint:disable-next-line:typedef
   getProductList(id: number = -1): Observable<Product[]> {
-    console.log(id)
+    console.log(id);
     // return this.client.get<Product[]>(`${this.BASIC_URL}/api/products`);
     // this.category_list =
-    if(id === -1)
-    {
+    if(id === -1) {
       console.log(this.client.get<Product[]>(`${this.BASIC_URL}/api/products`));
       return this.client.get<Product[]>(`${this.BASIC_URL}/api/products`);
       // return of(this.productList);
     }
-    else
-    {
-      console.log('filtred')
+    else {
+      console.log('filtred');
       const temp = this.client.get<Product[]>(`${this.BASIC_URL}/api/products`).pipe(map(product => product.filter(product => product.category.id === id)));
       // console.log(temp);
       // this.getDebugInfo(id);
@@ -40,8 +38,7 @@ export class ProductService {
   }
 
   getDebugInfo(id: number): void {
-    this.getProductList(id).subscribe(products =>
-    {
+    this.getProductList(id).subscribe(products => {
       this.tempProducts = products; // <- after this point you have the result
       console.log(this.tempProducts);
     });

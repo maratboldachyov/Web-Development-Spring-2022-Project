@@ -37,3 +37,8 @@ export interface Shipping {
   price: number;
   description: string;
 }
+
+export interface AuthToken {
+  token: string;
+}
+
