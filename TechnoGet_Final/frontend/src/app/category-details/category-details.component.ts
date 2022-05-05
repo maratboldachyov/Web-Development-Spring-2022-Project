@@ -16,8 +16,8 @@ export class CategoryDetailsComponent implements OnInit {
   category: Category = {
     id: +this.route.snapshot.paramMap.get('id'),
     name: 'sf1000',
-    image: "",
-    description: "",
+    image: '',
+    description: '',
     products: []
   }; ///// have to initialize
   loading: boolean;

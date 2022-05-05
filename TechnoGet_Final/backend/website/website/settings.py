@@ -67,7 +67,7 @@ MIDDLEWARE = [
     # 'api.CorsMiddleware'
 ]
 
-CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'website.urls'
 

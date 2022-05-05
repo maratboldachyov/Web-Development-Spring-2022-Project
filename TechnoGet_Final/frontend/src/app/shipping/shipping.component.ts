@@ -12,7 +12,6 @@ export class ShippingComponent implements OnInit {
   // shippingCosts = this.shippingService.getShippingList();
   shippings: Shipping[];
   constructor(private shippingService: ShippingService) {
-    
   }
 
   ngOnInit(): void {

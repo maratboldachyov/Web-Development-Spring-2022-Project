@@ -18,7 +18,7 @@ export class CategoryService {
   // tslint:disable-next-line:typedef
   getCategoryList(): Observable<Category[]> {
     return this.client.get<Category[]>(`${this.BASIC_URL}/api/categories`);
-    //this.category_list =
+    // this.category_list =
     // return of(this.category_list);
   }
   // tslint:disable-next-line:typedef
